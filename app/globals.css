@@ -2,32 +2,56 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@200;300;400;500;600;700&display=swap');
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer keyframes {
+  @keyframes infiniteSliderHorizontal {
+    0% {
+      transform: translateX(0);
+    }
+
+    100% {
+      transform: translateX(calc(-1000px - 1rem));
+      /*     transform: translateX(calc(1000px + 1rem)); */
+    }
   }
-}
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  @keyframes infiniteSliderHorizontalRight {
+    0% {
+      transform: translateX(0);
+    }
+
+    100% {
+      transform: translateX(calc(1000px + 1rem));
+      /*     transform: translateX(calc(1000px + 1rem)); */
+    }
+  }
 }
 
 @layer utilities {
-  .text-balance {
-    text-wrap: balance;
+  .animate-infinite-slider-horizontal {
+    animation: infiniteSliderHorizontal 45s linear infinite;
   }
+
+  .animate-infinite-slider-right {
+    animation: infiniteSliderHorizontalRight 45s linear infinite;
+  }
+}
+
+.moreover{
+  background-image: url(/public/bg.svg);
+}
+
+
+.hero-bg{
+  background-image: url("../public/hero.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  height: 761px;
 }
