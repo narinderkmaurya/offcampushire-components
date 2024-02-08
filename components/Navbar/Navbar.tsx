@@ -7,6 +7,7 @@ import NavbarMenuDropdown from "./NavbarMenuDropdown";
 import PrimaryButton from "@/components/Buttons/PrimaryButton";
 import SecondaryButton from "@/components/Buttons/SecondaryButton";
 import Image from "next/image";
+import Link from "next/link";
 
 const Navbar = () => {
   const [isMenuClicked, setIsMenuClicked] = useState(false);
@@ -32,7 +33,7 @@ const Navbar = () => {
               </a>
             </div>
             <div className="hidden flex-row items-center gap-4 xl:flex font-primary leading-none">
-              <NavbarItem title="Products" />
+              <Link href="/about">  <NavbarItem title="About Us" /></Link>
               <NavbarItem title="Solutions" />
               <NavbarItem title="Enterprise" />
               <NavbarItem title="Company" />
@@ -43,9 +44,9 @@ const Navbar = () => {
               <a href="">
                 <PrimaryButton title="Sign In" />
               </a>
-              <a href="">
-                <SecondaryButton title="Sign In" />
-              </a>
+              <Link href="/get-started">
+                <SecondaryButton title="Get Started" />
+              </Link>
             </div>
           </div>
           <button
@@ -65,31 +66,7 @@ const Navbar = () => {
           <NavbarMenuDropdown isMenuClicked={isMenuClicked} />
         </div>
       </nav>
-      <div className="relative z-30 overflow-hidden flex text-xs md:text-base text-white gap-[10px] items-center h-[56px] md:h-auto justify-center py-1.5 bg-purple-600">
-        {/* <img
-          alt="purple layered background"
-          loading="lazy"
-          width="1360"
-          height="36"
-          decoding="async"
-          data-nimg="1"
-          className="absolute left-0 w-[1600px] h-[56px] md:h-[36px]"
-          style={{color:"transparent"}}
-          src="/university/_next/static/media/notification-bg-layers.88acbf20.svg"
-        /> */}
-        <div className="flex flex-col md:flex-row items-start md:items-center gap-1">
-          {/* <div
-            className="h-[14px] bg-[] bg-cover w-[14px] align-text-bottom bg-emoji z-50 hidden md:block"
-            
-          ></div> */}
-          <p className="z-50">Our new Solidity course is now live!</p>
-          <a
-            className="z-30 underline font-semibold"
-          >
-            Check it out now
-          </a>
-        </div>
-      </div>
+      
     </>
   );
 };

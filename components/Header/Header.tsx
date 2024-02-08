@@ -11,7 +11,7 @@ const instrument = Instrument_Serif({ subsets: ["latin"], weight: "400" });
 export default function Header() {
     return (
         <header className={instrument.className + "  text-center  pt-32 "}>
-            <h1 className='text-6xl '>
+            <h1 className='text-[64px] header-about '>
                 Empowering freshers with <br />
                 <span className="text-transparent  bg-clip-text"
                     style={{
