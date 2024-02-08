@@ -107,3 +107,22 @@
 }
 
 
+/* get started */
+
+.left{
+  background-image: linear-gradient(#fdf2b8,#bdedb6);
+  max-height: 100vh;
+}
+
+
+@layer utilities {
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+      display: none;
+  }
+ /* Hide scrollbar for IE, Edge and Firefox */
+  .no-scrollbar {
+      -ms-overflow-style: none;  /* IE and Edge */
+      scrollbar-width: none;  /* Firefox */
+}
+}

@@ -7,18 +7,21 @@ import Problem from "@/components/Problem";
 
 export default function Home() {
     return (
-        <main className="overflow-x-hidden">
+        <div className="">
+            <Navbar/>
+            <main className="overflow-x-hidden">
 
-            <Header />
-            <Problem />
-            <div className="">
-                <New />
+                <Header />
+                <Problem />
+                <div className="">
+                    <New />
 
-            </div>
-            <div>
-                <Moreover />
-            </div>
-            <Last />
-        </main>
+                </div>
+                <div>
+                    <Moreover />
+                </div>
+                <Last />
+            </main>
+        </div>
     );
 }
