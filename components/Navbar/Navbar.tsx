@@ -34,7 +34,7 @@ const Navbar = () => {
             </div>
             <div className="hidden flex-row items-center gap-4 xl:flex font-primary leading-none">
               <Link href="/about">  <NavbarItem title="About Us" /></Link>
-              <NavbarItem title="Solutions" />
+              <Link href="/student">  <NavbarItem title="Student" /></Link>
               <NavbarItem title="Enterprise" />
               <NavbarItem title="Company" />
               <NavbarItem title="Developers" />
@@ -48,7 +48,7 @@ const Navbar = () => {
                 <SecondaryButton title="Get Started" />
               </Link>
             </div>
-          </div>
+          </div >
           <button
             className="absolute right-6 z-30 h-5 w-5 text-gray-700 xl:hidden [&>*]:h-0.5 [&>*]:rounded-full [&>*]:bg-gray-700 [&>*]:transition-all [&>*]:duration-300 [&>*]:ease-in-out"
             onClick={handleMenuClick}
@@ -64,9 +64,9 @@ const Navbar = () => {
             ></div>
           </button>
           <NavbarMenuDropdown isMenuClicked={isMenuClicked} />
-        </div>
-      </nav>
-      
+        </div >
+      </nav >
+
     </>
   );
 };

@@ -15,25 +15,27 @@ export default function GetStartedPage() {
     const [password, setPassword] = useState('');
     return (
         <div className='w-full lg:grid lg:grid-cols-12  '>
-            <div className="left col-span-6 hidden md:flex min-h-screen px-10 py-10  flex-col justify-between">
-                <div className="space-y-12">
-                    <Image src={logo} alt="Logo" className='w-28' />
+            <div className="left col-span-6 hidden md:flex     min-h-screen ">
+                <div className="fixed min-h-screen w-1/2 flex flex-col px-10 py-10 justify-between">
+                    <div className="space-y-12">
+                        <Image src={logo} alt="Logo" className='w-28' />
 
-                    <h1 className='text-6xl font-semibold'>
-                        Join thousands of founders using Raizer all over the globe.
-                    </h1>
-                </div>
+                        <h1 className='text-6xl font-semibold'>
+                            Join thousands of founders using Raizer all over the globe.
+                        </h1>
+                    </div>
 
-                <div className="rounded-xl bg-[#e3f7db] px-6 py-6 ">
-                    <p className='text-lg'>
-                        “Since we started using Raizer to accelerate our Pre-Seed raise we have noticed a big increase in our cold email success rate, leading to booking meetings and way less stress on my already full plate as a founder.”
-                    </p>
+                    <div className="rounded-xl bg-[#e3f7db] px-6 py-6 ">
+                        <p className='text-lg'>
+                            “Since we started using Raizer to accelerate our Pre-Seed raise we have noticed a big increase in our cold email success rate, leading to booking meetings and way less stress on my already full plate as a founder.”
+                        </p>
 
-                    <div className="flex mt-6 gap-2">
-                        <Image src={profile} alt="profile" className='w-12 h-12' />
-                        <div className="">
-                            <h2 className="font-semibold text-lg flex gap-1">John Doe <span><Image src={linkedin} alt="" /></span></h2>
-                            <p className="text-sm">Co-founder of <span className='text-[#778af5] cursor-pointer'>MADE</span></p>
+                        <div className="flex mt-6 gap-2">
+                            <Image src={profile} alt="profile" className='w-12 h-12' />
+                            <div className="">
+                                <h2 className="font-semibold text-lg flex gap-1">John Doe <span><Image src={linkedin} alt="" /></span></h2>
+                                <p className="text-sm">Co-founder of <span className='text-[#778af5] cursor-pointer'>MADE</span></p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -78,7 +80,7 @@ export default function GetStartedPage() {
                 </div>
 
                 <button
-                    className={`border rounded-xl px-6 py-3 bg-[#eeeeee]  w-[350px] md:w-96 font-semibold text-center items-center justify-center ${email && password ? 'bg-[#000000] text-white'  : 'cursor-not-allowed text-[#666666]'}`}
+                    className={`border rounded-xl px-6 py-3 bg-[#eeeeee]  w-[350px] md:w-96 font-semibold text-center items-center justify-center ${email && password ? 'bg-[#000000] text-white' : 'cursor-not-allowed text-[#666666]'}`}
                     disabled={!(email && password)}
                 >
                     Create Account

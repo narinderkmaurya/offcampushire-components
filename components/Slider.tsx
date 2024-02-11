@@ -1,3 +1,5 @@
+"use client"
+
 import React from 'react'
 import MobileCardsSection from './MobileCardsSection'
 import DesktopCardsSection from './DesktopCardsSection'

@@ -11,15 +11,9 @@ export default function Home() {
     <div className="">
       <Navbar/>
       <main className="">
-      
-
       <Hero />
       <EcoSystem />
-
-
-      <div className="">
-        <Ultimate />
-      </div>
+      <Ultimate />
     </main>
     </div>
   );

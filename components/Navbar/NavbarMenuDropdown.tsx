@@ -9,7 +9,7 @@ const NavbarMenuDropdown = ({ isMenuClicked }: { isMenuClicked: boolean }) => {
             <div className='absolute inset-0 flex h-screen w-screen flex-col bg-[rgb(255,255,255,1)] pt-14 xl:hidden'>
                 <div className="flex flex-col">
                     <Link href="/about"> <MenuDropdownItem title="About Us" /></Link>
-                    <MenuDropdownItem title="Solutions" />
+                    <Link href="/student"> <MenuDropdownItem title="Student" /></Link>
                     <MenuDropdownItem title="Enterprise" />
                     <MenuDropdownItem title="Company" />
                     <MenuDropdownItem title="Developers" />
