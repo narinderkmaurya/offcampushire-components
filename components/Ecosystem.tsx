@@ -63,7 +63,7 @@ export default function EcoSystem() {
                         initial={{ y: 50, opacity: 0 }} // Starting position and opacity
                         animate={{ y: isVisible ? 0 : 50, opacity: isVisible ? 1 : 0 }} // Conditionally animate based on visibility
                         transition={{ duration: 0.5, delay: 0.2 }} // Animation duration with delay
-                        className={general.className + " text-md  lg:text-[1.45rem] leading-[1.5rem]  px-80 lg:leading-[2.75rem]"} style={{  fontWeight: "400" }}>
+                        className={general.className + " text-md  lg:text-[1rem] leading-[1.5rem]  lg:px-[20rem] lg:leading-[2.75rem]"} style={{  fontWeight: "400" }}>
                         Welcome to OffcampusHire, where we are dedicated to empowering 
                         freshers to kickstart their careers through exclusive off-campus placement 
                         drives. Our platform serves as a catalyst for bridging the gap between freshers 
