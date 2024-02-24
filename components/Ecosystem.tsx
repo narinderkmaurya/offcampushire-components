@@ -50,7 +50,7 @@ export default function EcoSystem() {
                 <motion.h1 initial={{ y: 50, opacity: 0 }} // Starting position and opacity
                     animate={{ y: isVisible ? 0 : 50, opacity: isVisible ? 1 : 0 }} // Conditionally animate based on visibility
                     transition={{ duration: 0.5 }}
-                    className={instrument.className + "  text-center  px-2 lg:px-80 text-[1.7rem]  lg:text-[3.15rem]  "}>
+                    className={instrument.className + "  text-center  px-2 md:px-60 xl:px-80 text-[1.7rem]  lg:text-[3.15rem]  "}>
                     Reimagining <span style={{
                         backgroundImage:
                             "linear-gradient(140deg,#36beff 24.24%,#733ff1)",
@@ -63,9 +63,9 @@ export default function EcoSystem() {
                         initial={{ y: 50, opacity: 0 }} // Starting position and opacity
                         animate={{ y: isVisible ? 0 : 50, opacity: isVisible ? 1 : 0 }} // Conditionally animate based on visibility
                         transition={{ duration: 0.5, delay: 0.2 }} // Animation duration with delay
-                        className={general.className + " text-md  lg:text-[1rem] leading-[1.5rem]  lg:px-[20rem] lg:leading-[2.75rem]"} style={{  fontWeight: "400" }}>
+                        className={general.className + " text-md  md:text-[20px] leading-[1.5rem]  md:px-36 lg:px-64 xl:px-80 md:leading-[37.8px]"} style={{  fontWeight: "400" }}>
                         Welcome to OffcampusHire, where we are dedicated to empowering 
-                        freshers to kickstart their careers through exclusive off-campus placement 
+                        freshers to kickstart their careers through exclusive off-campus placement  
                         drives. Our platform serves as a catalyst for bridging the gap between freshers 
                         and exclusive off-campus placement drives beyond on-campus placements.
                     </motion.p>

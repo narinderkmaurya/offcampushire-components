@@ -29,7 +29,7 @@ export default function New() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.6 }}
-                  className={light.className +  ' lg:px-[21.5rem] px-6 text-md  lg:text-[1.4rem] leading-[1.5rem] lg:leading-[2.75rem] '}
+                  className={light.className +  ' md:text-[20px]  md:px-[16.5rem] lg:px-[13.5rem] xl:px-[19.5rem] px-6 text-md  lg:text-[1.4rem] leading-[1.71rem] lg:leading-[2.75rem] '}
                   style={{ }}
                 >
                     Being left out of on-campus placements can deal a blow to a fresher&apos;s confidence
@@ -42,7 +42,7 @@ export default function New() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.6 }}
-                  className={light.className +  ' lg:px-[20rem] px-6 text-md  lg:text-[1.4rem] leading-[1.5rem] lg:leading-[2.75rem] '}
+                  className={light.className +  'md:text-[20px]  md:px-[16.5rem] lg:px-[13.659rem] xl:px-[18.5rem] px-6 text-md  lg:text-[1.4rem] leading-[1.71rem] lg:leading-[2.75rem]'}
                   style={{ }}
                 >
                     For many freshers, securing a job post-graduation isn&apos;t just about fulfilling career

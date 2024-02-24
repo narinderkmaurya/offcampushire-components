@@ -8,9 +8,9 @@ import Ultimate from "@/components/Ultimate";
 
 export default function Home() {
   return (
-    <div className="">
+    <div className="overflow-hidden">
       <Navbar/>
-      <main className="">
+      <main className="overflow-hidden">
       <Hero />
       <EcoSystem />
       <Ultimate />

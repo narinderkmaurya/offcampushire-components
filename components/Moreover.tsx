@@ -23,7 +23,7 @@ const general = regular({
 export default function Moreover() {
     return (
         <div className='flex items-center  py-[120px] justify-center w-full bg-gradient-to-b from-[#f4f4f7] to-[#cdd3fd] px-2 '>
-            <div className="bg-white border rounded-2xl px-8 py-12 text-center">
+            <div className="bg-white border rounded-2xl px-12 py-12 text-center">
                 <motion.span
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
@@ -39,11 +39,11 @@ export default function Moreover() {
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5 }}
                     viewport={{ once: true }}
-                    className={general.className + ' lg:text-[1.25rem] leading-[1.5rem]  mt-6 lg:leading-[2rem] lg:px-[1.8rem] lg:max-w-md'}
+                    className={general.className + ' lg:text-[1.5rem] leading-[1.5rem]  mt-6 lg:leading-[37.8px]  '}
                     style={{fontWeight:"400"}}>
-                    Every fresher starts searching for
-                    jobs on traditional job hunting platforms
-                    excitedly, only to find that most opportunities
+                    Every fresher starts searching for <br />
+                    jobs on traditional job hunting platforms <br />
+                    excitedly, only to find that most opportunities <br />
                     ask for experience they don&apos;t have yet
                 </motion.p>
             </div>

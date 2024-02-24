@@ -35,7 +35,7 @@ export default function Problem() {
                 >THE PROBLEM</motion.span>
 
                 <motion.p
-                    className={Regular.className + ' px-6 text-md  lg:text-[1.8755rem] leading-[1.5rem] lg:px-[20rem] lg:leading-[3.25rem] '}
+                    className={Regular.className + ' px-6 text-md  xl:text-[1.8755rem] leading-[1.5rem] md:px-44 xl:px-72  xl:leading-[3.25rem] '}
                     style={{color:"#3f3f42"}}
                     initial={{ opacity: 0, y: 50 }}
                     whileInView={{ opacity: 1, y: 0 }}

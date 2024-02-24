@@ -41,13 +41,13 @@ export default function Last() {
             className={instrument.className + "  text-center lg:text-[6rem] text-[4rem]  font-bold  pt-12  text-white "}>
             offcampushine
           </motion.h1>
-          <div className="text-start px-4 lg:px-[24rem]">
+          <div className="text-start px-4 lg:px-[12rem]">
             <motion.p
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
               viewport={{ once: true }}
-              className='text-white pt-8  text-xl text-md  lg:text-[1.25rem] leading-[1.5rem] lg:leading-[2.75rem]'>
+              className='text-white pt-2 text-xl text-md  lg:text-[1.5rem] leading-[1.5rem] lg:leading-[2.75rem]'>
               Welcome aboard to OffcampusHire, the radical platform committed to fueling
               the career move of freshers with exclusive off-campus placement drives!
             </motion.p>
@@ -56,7 +56,7 @@ export default function Last() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
               viewport={{ once: true }}
-              className='text-white pt-8 text-xl text-md  lg:text-[1.25rem] leading-[1.5rem] lg:leading-[2.75rem]'>
+              className='text-white pt-8 text-xl text-md  lg:text-[1.5rem] leading-[1.5rem] lg:leading-[2.75rem]'>
               With our innovative approach to career empowerment, we aim to level the playing
               field for freshers and provide them with the opportunities they need to thrive. By
               bridging the gap between freshers and off-campus placement drives, we empower
