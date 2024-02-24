@@ -5,7 +5,7 @@ import Link from 'next/link'
 const NavbarMenuDropdown = ({ isMenuClicked }: { isMenuClicked: boolean }) => {
     return (
         isMenuClicked &&
-        <div className={` ${!isMenuClicked ? " pointer-events-none -z-20 opacity-0" : " z-20 opacity-100"} font-primary transition-opacity duration-300 `}>
+        <div className={` ${!isMenuClicked ? " pointer-events-none -z-20 opacity-0" : " z-20 opacity-100"}  transition-opacity duration-300 `}>
             <div className='absolute inset-0 flex h-screen w-screen flex-col bg-[rgb(255,255,255,1)] pt-14 xl:hidden'>
                 <div className="flex flex-col">
                     <Link href="/about"> <MenuDropdownItem title="About Us" /></Link>

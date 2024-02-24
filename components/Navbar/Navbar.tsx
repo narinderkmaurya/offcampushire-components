@@ -32,7 +32,7 @@ const Navbar = () => {
                 />
               </a>
             </div>
-            <div className="hidden flex-row items-center gap-4 xl:flex font-primary leading-none">
+            <div className="hidden flex-row items-center gap-4 xl:flex  leading-none">
               <Link href="/about">  <NavbarItem title="About Us" /></Link>
               <Link href="/student">  <NavbarItem title="Student" /></Link>
               <NavbarItem title="Enterprise" />
@@ -40,7 +40,7 @@ const Navbar = () => {
               <NavbarItem title="Developers" />
               <NavbarItem title="Pricing" />
             </div>
-            <div className="z-30 font-primary hidden items-center gap-2 xl:flex">
+            <div className="z-30 hidden items-center gap-2 xl:flex">
               <a href="">
                 <PrimaryButton title="Sign In" />
               </a>
