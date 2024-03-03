@@ -4,11 +4,19 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@200;300;400;500;600;700&display=swap');
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
+.blue {
+  background-image: url("../app/student/bg.png");
+  color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
+.cone {
+  background-image: url("../app/student/cone.png");
+  background-position: center;
+}
 
 @layer keyframes {
   @keyframes infiniteSliderHorizontal {
@@ -108,7 +116,7 @@
 
 @media (max-width: 768px) {
   .purple-bg {
-    height:1150px
+    height: 1150px
   }
 }
 

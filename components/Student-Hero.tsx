@@ -33,7 +33,7 @@ export default function StudentHero() {
 
     return (
         <header>
-            <div className="student-bg px-2 lg:px-64 text-center flex flex-col items-center justify-center ">
+            <div className="student-bg px-2 lg:px-40 xl:px-64 text-center flex flex-col items-center justify-center ">
                 <motion.h1
                     className={instrument.className + ' lg:text-[4rem] text-[2rem]  font-bold hero-heading  lg:leading-[5.2rem]'}
                     ref={ref}
