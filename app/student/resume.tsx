@@ -37,7 +37,7 @@ const Resume = () => {
                 transition={{ duration: 1, delay: 1 }}
             >
                 You can forget about the hassle of creating,
-                uploading, and sending resumes – with us, it's
+                uploading, and sending resumes – with us, it&apos;s
                 all about highlighting your skills, passion, and
                 unique qualities in a simple and intuitive way
             </motion.p>

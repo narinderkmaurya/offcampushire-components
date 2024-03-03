@@ -28,7 +28,7 @@ const Goodbye = () => {
                         </p>
 
                         <p className={` ${general.className} `}>
-                            We recognize that your true potential goes beyond a GPA and so we're
+                            We recognize that your true potential goes beyond a GPA and so we&apos;re
                             breaking down barriers of CGPA requirements, redefining the eligibility
                             criteria for freshers to participate in off-campus drives based on skills,
                             passion, and commitment, irrespective of academic grades

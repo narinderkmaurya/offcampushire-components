@@ -52,7 +52,7 @@ const Blue = () => {
                 </p>
 
                 <p>
-                    OffCampusHire is the game-changer in India's off-campus recruitment scene.
+                    OffCampusHire is the game-changer in India&apos;s off-campus recruitment scene.
                 </p>
             </motion.div>
         </motion.div>

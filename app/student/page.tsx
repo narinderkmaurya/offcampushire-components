@@ -19,7 +19,7 @@ import { motion } from 'framer-motion';
 
 import { useInView } from 'react-intersection-observer';
 
-export default function page() {
+export default function Page() {
         const [ref, inView] = useInView({
                 triggerOnce: true, // Change to false if you want the animation to trigger again whenever it comes into view
         });
